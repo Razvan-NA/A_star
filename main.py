@@ -10,6 +10,7 @@ if goal_state:
     
     for i, board in enumerate(solution_steps):
         print(f"Step {i}:")
-        print_table(board) # Your colored 3x3 print
+        print_table(board)
 else:
     print("No solution found.")
+
